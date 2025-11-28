@@ -6,6 +6,34 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+@media screen and (min-width: 200px) and (max-width: 600px) {
+    menu{
+        display: none;
+    }
+
+    menu a {
+        display: block;
+    }
+
+    span.material-symbols-outlined{
+        display: block;
+        text-align: center;
+        background-color: grey;
+        padding: 5px;
+        cursor: pointer;
+    }
+
+    header {
+        height: 70vh;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    span.material-symbols-outlined{
+        display: none;
+    }
+}
+
 body{
     background-color: lightgrey;
 }
